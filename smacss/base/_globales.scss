@@ -1,0 +1,41 @@
+@use "../theme/variables" as v;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: v.$fuentePrincipal;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  margin-bottom: 4rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+li {
+  list-style: none;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  color: v.$blanco;
+  font-size: 1rem;
+}

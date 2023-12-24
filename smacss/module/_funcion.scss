@@ -1,0 +1,25 @@
+@use "../theme/variables" as v;
+
+.funcion {
+  background-color: v.$primario;
+  margin-top: 13rem;
+
+  &__ola {
+    margin-top: -18rem;
+  }
+
+  &__heading {
+    color: v.$blanco;
+
+    span {
+      display: block;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 4rem;
+  }
+}

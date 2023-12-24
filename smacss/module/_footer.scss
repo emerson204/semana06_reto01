@@ -1,0 +1,38 @@
+@use "../theme/variables" as v;
+
+.footer {
+  background-color: v.$secundario;
+  padding-top: 3rem;
+  color: v.$blanco;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+  }
+
+  &__text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  &__link {
+    color: v.$blanco;
+    display: block;
+    margin-bottom: 0.6rem;
+  }
+
+  &__derechos {
+    background-color: v.$primario;
+    text-align: center;
+    font-size: 1.2rem;
+    color: v.$blanco;
+    padding: 1.2rem 0;
+  }
+}
